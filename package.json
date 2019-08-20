@@ -1,0 +1,23 @@
+{
+  "name": "vue-use-steup-maps",
+  "version": "1.0.0",
+  "description": "vue ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "keywords": [],
+  "author": "zhangzechao",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "vue": "^2.6.10",
+    "vue-function-api": "^2.2.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4"
+  }
+}
